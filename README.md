@@ -1,2 +1,3 @@
-# GameJava
-rpg
+# GameJava2D-RPG
+RPG
+JAVA2D
