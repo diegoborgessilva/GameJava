@@ -1,7 +1,6 @@
 package telas;
 
 import java.awt.Dimension;
-
 import javax.swing.JFrame;
 
 public class Janela {
@@ -9,7 +8,7 @@ public class Janela {
 	/**
 	 * Este construtor cria uma janela/tela do jogo através dos parâmetros recebidos.
 	 * E inicializa o jogo
-	 *k */
+	 * */
 	
 	public Janela(int largura, int altura, String titulo, Jogo jogo) {
 		jogo.setPreferredSize(new Dimension(largura,altura));
@@ -21,8 +20,7 @@ public class Janela {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setResizable(false);
 		frame.setLocationRelativeTo(null);
-		frame.setVisible(true);
-				
+		frame.setVisible(true);				
 		jogo.start();// inicializa
 	}
 }
